@@ -5,3 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --black: #0A0A0A;
+    --mint: #9FFFE3;
+    --purple: #5F15C9;
+    --yellow: #E4C953;
+    --red: #C91525;
+}
