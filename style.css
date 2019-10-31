@@ -14,6 +14,31 @@
     --red: #C91525;
 }
 
+.red {
+    height: 812px;
+    background: var(--red);
+}
+
+.mint {
+    height: 812px;
+    background: var(--mint);
+}
+
+.yellow {
+    height: 886px;
+    background: var(--yellow);
+}
+
+.purple {
+    height: 1259px;
+    background: var(--purple);
+}
+
+footer {
+    height: 121px;
+    background: var(--black);
+}
+
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
