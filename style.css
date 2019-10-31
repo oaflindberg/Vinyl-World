@@ -14,6 +14,10 @@
     --red: #C91525;
 }
 
+body {
+    min-width: 100vw;
+}
+
 .red {
     height: 812px;
     background: var(--red);
@@ -37,6 +41,29 @@
 footer {
     height: 121px;
     background: var(--black);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.socialMedia {
+    margin: 5px;
+}
+
+.test2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 
