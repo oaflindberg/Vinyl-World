@@ -46,6 +46,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Futura PT';
+    font-size: 14px;
 }
 
 .test {
