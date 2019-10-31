@@ -18,6 +18,17 @@ body {
     min-width: 100vw;
 }
 
+h1 {
+    font-family: Futura PT;
+    font-size: 38px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #0A0A0A;
+    position: absolute;
+    margin-top: 20%;
+}
+
 .red {
     height: 812px;
     background: var(--red);
@@ -27,7 +38,11 @@ body {
 .mint {
     height: 812px;
     background: var(--mint);
+}
 
+.headline {
+    display: flex;
+    justify-content: center;
 }
 
 .hero {
