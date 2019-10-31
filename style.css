@@ -39,18 +39,29 @@ header {
     margin-right: 20px;
 }
 
-.red {
-    height: 812px;
-    width: 100vw;
-    background: var(--red);
+.navMenu {
+    display: none;
 }
 
-.imgtest {
+.red {
+    height: calc(812px - 89px);
+    width: 100vw;
+    background: var(--red);
+    background-image: url(images/vinyl_mockup_cropped.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    object-fit: cover;
+}
+
+.h1White {
+    font-family: 'Futura PT', sans-serif;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: white;
+    margin-top: 40px;
 }
 
 .mint {
@@ -101,9 +112,47 @@ footer {
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
+
+    .logotype {
+        margin-top: 30px;
+        width: 282px;
+        height: 49px;
+        margin-left: 70px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navMenu {
+        margin-top: 30px;
+        margin-right: 70px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navMenu h3 {
+        font-family: 'Futura PT', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 35px;
+        letter-spacing: 0.03em;
+    }
+
     .red {
         height: 938px;
         background: var(--red);
+        width: 100vw;
+        background-image: url(images/vinyl_mockup.png);
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1White {
+        margin-top: 18%;
     }
 
     .mint {
