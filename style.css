@@ -80,11 +80,6 @@ h1 {
     background: var(--mint);
 }
 
-.headline {
-    display: flex;
-    justify-content: center;
-}
-
 .hero {
     display: flex;
     height: 100%;
@@ -137,6 +132,13 @@ footer {
     width: 100vw;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .headline {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
 
@@ -182,10 +184,22 @@ footer {
         margin-top: 12%;
     }
 
+    /* MINT SECTION */
     .mint {
-        height: 938px;
+        height: 100vh;
         background: var(--mint);
     }
+
+    h1 {
+        margin-top: 4%;
+        margin-left: 70px;
+    }
+
+    .hero>img {
+        width: 85vw;
+    }
+
+    /* END MINT SECTION */
 
     .yellow {
         height: 938px;
