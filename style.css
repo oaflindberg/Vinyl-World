@@ -18,9 +18,39 @@ body {
     min-width: 100vw;
 }
 
+header {
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--red);
+}
+
+
+.logotype {
+    width: 158px;
+    height: 28px;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 25px;
+    height: 17px;
+    margin-right: 20px;
+}
+
 .red {
     height: 812px;
+    width: 100vw;
     background: var(--red);
+}
+
+.imgtest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 .mint {
