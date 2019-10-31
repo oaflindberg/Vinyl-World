@@ -16,6 +16,7 @@
 
 body {
     min-width: 100vw;
+    font-family: 'Futura PT', sans-serif;
 }
 
 header {
@@ -56,7 +57,7 @@ header {
 }
 
 .h1White {
-    font-family: 'Futura PT', sans-serif;
+    /* font-family: 'Futura PT', sans-serif; */
     font-size: 38px;
     line-height: 49px;
     letter-spacing: 0.05em;
@@ -87,7 +88,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Futura PT';
+    /* font-family: 'Futura PT'; */
     font-size: 14px;
 }
 
@@ -132,7 +133,7 @@ footer {
     }
 
     .navMenu h3 {
-        font-family: 'Futura PT', sans-serif;
+        /* font-family: 'Futura PT', sans-serif; */
         font-weight: bold;
         font-size: 18px;
         margin-left: 35px;
