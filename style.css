@@ -381,14 +381,14 @@ footer {
         height: 354px;
         grid-row: 5/9;
         grid-column: 2/6;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .yellowH1 {
         grid-row: 5/6;
         grid-column: 8/12;
         text-align: left;
-        margin-right: 100px;
+        margin-right: 150px;
         width: 450px;
         margin-top: -40px;
     }
