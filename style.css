@@ -129,7 +129,7 @@ button:hover {
     align-items: center;
 }
 
-.gridcontainer {
+.gridcontainerYellow {
     height: 886px;
     display: flex;
     flex-direction: column;
@@ -169,6 +169,15 @@ button:hover {
 /* ! PURPLE SECTION Mobile STARTS */
 
 .purple {
+    height: 1259px;
+    background: var(--purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gridcontainerPurple {
     height: 1259px;
     background: var(--purple);
     display: flex;
@@ -289,7 +298,7 @@ footer {
         margin-top: 12%;
     }
 
-    /* ! PURPLE SECTION Desktop ENDS */
+    /* ! RED SECTION Desktop ENDS */
 
     /* ! MINT SECTION Desktop STARTS */
 
@@ -413,8 +422,6 @@ footer {
         grid-row: 5/6;
         width: 450px;
         text-align: left;
-        justify-items: start;
-
     }
 
     .purpleH3 {
@@ -422,14 +429,15 @@ footer {
         grid-row: 6/6;
         width: 450px;
         text-align: left;
+        margin-top: -50px;
     }
 
     .clarification {
         grid-column: 7/12;
-        grid-row: 6/7;
+        grid-row: 7/8;
         width: 450px;
         text-align: left;
-        margin-top: 100px;
+        margin-top: -50px;
     }
 
     .purpleButton {
