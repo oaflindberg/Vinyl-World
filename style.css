@@ -421,6 +421,8 @@ footer {
         grid-row: 5/6;
         width: 450px;
         text-align: left;
+        margin-left: 0;
+        margin-top: -15px;
     }
 
     .purpleH3 {
@@ -437,11 +439,13 @@ footer {
         width: 450px;
         text-align: left;
         margin-top: -50px;
+        margin-left: 0;
     }
 
     .purpleButton {
         grid-column: 7/10;
         grid-row: 8/8;
+        margin-bottom: -20px;
     }
 
     /* ! PURPLE SECTION Desktop ENDS */
