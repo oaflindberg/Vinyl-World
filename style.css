@@ -168,19 +168,17 @@ button:hover {
     align-items: center;
 }
 
-.portrait {
+.gridcontainerPurple>img {
+    width: 335px;
+    height: 415px;
     margin: 0 20px;
-}
-
-.portrait>img {
-    width: 100%;
 }
 
 .headline>h1 {
     margin: 30vh 20px 5%;
 }
 
-.gridcontainer>h3 {
+.gridcontainerPurple>h3 {
     text-align: center;
     margin: 6vh 20px;
 }
@@ -385,9 +383,9 @@ footer {
         grid-gap: 20px;
     }
 
-    .gridcontainer>img {
+    .gridcontainerPurple>img {
         grid-column: 2 / span 3;
-        grid-row: 3 / 5;
+        grid-row: 3;
         width: 310px;
         height: 384px;
     }
@@ -398,7 +396,7 @@ footer {
         align-self: start;
     }
 
-    .gridcontainer>h3 {
+    .gridcontainerPurple>h3 {
         grid-column: 6 / span 4;
         grid-row: 4;
     }
