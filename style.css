@@ -63,6 +63,7 @@ button {
     text-transform: uppercase;
     font-size: 1em;
     cursor: pointer;
+    transition: 250ms ease;
 }
 
 button:hover {
@@ -90,7 +91,6 @@ button:hover {
     letter-spacing: 0.05em;
     color: white;
     margin-top: 40px;
-    /* margin-right: 75px; */
 }
 
 /* ! RED SECTION Mobile ENDS */
@@ -292,6 +292,7 @@ footer {
     .navMenu a {
         text-decoration: none;
         color: var(--black);
+        transition: 250ms ease;
     }
 
     .navMenu a:hover {
@@ -349,6 +350,7 @@ footer {
         margin-left: 70px;
         position: absolute;
         margin-top: -80vh;
+        transition: 250ms ease;
     }
 
     .getInTouch:hover {
@@ -482,6 +484,7 @@ footer {
     .socialMedia {
         margin: 0 15px 0 15px;
         cursor: pointer;
+        transition: 250ms ease;
     }
 
     .socialMedia:hover {
