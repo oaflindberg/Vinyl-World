@@ -195,7 +195,9 @@ footer {
 }
 
 .socialMedia {
-    margin: 5px;
+    margin: 0 10px 0 10px;
+    height: 25px;
+    width: 25px;
 }
 
 
@@ -354,6 +356,10 @@ footer {
 
     .footerparagraph {
         margin-top: 60px;
+    }
+
+    .socialMedia {
+        margin: 0 15px 0 15px;
     }
 
 }
