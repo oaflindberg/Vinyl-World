@@ -70,6 +70,8 @@ button:hover {
     color: white;
 }
 
+/* RED SECTION Mobile STARTS */
+
 .red {
     height: calc(812px - 89px);
     width: 100vw;
@@ -91,7 +93,9 @@ button:hover {
     margin-right: 75px;
 }
 
-/* MINT SECTION Mobile */
+/* RED SECTION Mobile ENDS */
+
+/* MINT SECTION Mobile STARTS */
 .mint {
     height: 100vh;
     background: var(--mint);
@@ -112,7 +116,9 @@ button:hover {
     width: 100vw;
 }
 
-/* END MINT SECTION Mobile */
+/* MINT SECTION Mobile ENDS */
+
+/* YELLOW SECTION Mobile STARTS */
 
 .yellow {
     height: 886px;
@@ -158,7 +164,10 @@ button:hover {
     mix-blend-mode: darken;
 }
 
-/* PURPLE SECTION MOBILE */
+/* YELLOW SECTION Mobile ENDS */
+
+/* PURPLE SECTION Mobile STARTS */
+
 .purple {
     height: 1259px;
     background: var(--purple);
@@ -168,27 +177,26 @@ button:hover {
     align-items: center;
 }
 
-.gridcontainerPurple>img {
+.bandphoto {
     width: 335px;
     height: 415px;
     margin: 0 20px;
 }
 
-.headline>h1 {
+.purpleH1 {
     margin: 30vh 20px 5%;
 }
 
-.gridcontainerPurple>h3 {
+.purpleH3 {
     text-align: center;
     margin: 6vh 20px;
 }
 
 .clarification {
-    margin: 5vh 20px;
     text-align: center;
 }
 
-/* END PURPLE SECTION MOBILE */
+/* PURPLE SECTION Mobile ENDS */
 
 footer {
     height: 121px;
