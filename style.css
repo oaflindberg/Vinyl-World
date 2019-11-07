@@ -50,7 +50,6 @@ h1 {
     text-align: center;
     letter-spacing: 0.05em;
     color: #0A0A0A;
-    position: absolute;
     margin-top: 20%;
 }
 
@@ -96,6 +95,10 @@ button {
     height: 100%;
     justify-content: center;
     align-items: center;
+}
+
+.mintH1 {
+    position: absolute;
 }
 
 .hero>img {
@@ -147,12 +150,6 @@ footer {
     margin: 5px;
 }
 
-.test2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-}
 
 @media only screen and (max-width: 768px) {
 
