@@ -385,35 +385,37 @@ footer {
     }
 
     .bandphoto {
-        grid-column: 2/6;
+        grid-column: 3/6;
         grid-row: 5/9;
         width: 310px;
         height: 384px;
     }
 
     .purpleH1 {
-        grid-column: 8/12;
+        grid-column: 7/12;
         grid-row: 5/6;
         width: 450px;
         text-align: left;
+        justify-items: start;
+
     }
 
     .purpleH3 {
-        grid-column: 8/12;
-        grid-row: 6/7;
+        grid-column: 7/12;
+        grid-row: 6/6;
         width: 450px;
         text-align: left;
     }
 
     .clarification {
-        grid-column: 8/12;
+        grid-column: 7/12;
         grid-row: 7/8;
         width: 450px;
         text-align: left;
     }
 
     .purpleButton {
-        grid-column: 8/10;
+        grid-column: 7/10;
         grid-row: 10/11;
     }
 
