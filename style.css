@@ -364,10 +364,39 @@ footer {
         margin-bottom: 7px;
     }
 
+    /* PURPLE SECTION DESKTOP */
+
     .purple {
         height: 938px;
         background: var(--purple);
     }
+
+    .portrait {
+        grid-column: 2 / span 3;
+        grid-row: 3;
+    }
+
+    .headline {
+        grid-column: 6 / span 4;
+        grid-row: 3;
+    }
+
+    .gridcontainer>h3 {
+        grid-column: 6 / span 4;
+        grid-row: 4;
+    }
+
+    .clarification {
+        grid-column: 6 / span 4;
+        grid-row: 6;
+    }
+
+    .purpleButton {
+        grid-column: 6 / span 4;
+        grid-row: 8;
+    }
+
+    /* END PURPLE SECTION DESKTOP */
 
     footer {
         height: 242px;
