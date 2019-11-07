@@ -51,6 +51,7 @@ h1 {
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.05em;
+    font-family: 'Futura PT', sans-serif;
     color: var(--black);
     margin-top: 20%;
 }
@@ -62,6 +63,7 @@ button {
     width: 200px;
     height: 50px;
     text-transform: uppercase;
+    font-family: 'Futura PT', sans-serif;
     font-size: 1em;
     cursor: pointer;
     transition: 250ms ease;
@@ -90,6 +92,7 @@ button:hover {
     font-size: 38px;
     line-height: 49px;
     letter-spacing: 0.05em;
+    font-family: 'Futura PT', sans-serif;
     color: white;
     margin-top: 40px;
 }
@@ -111,6 +114,7 @@ button:hover {
 
 .mintH1 {
     position: absolute;
+    font-family: 'Futura PT', sans-serif;
 }
 
 .hero>img {
@@ -142,6 +146,7 @@ button:hover {
     font-size: 38px;
     line-height: 49px;
     text-align: center;
+    font-family: 'Futura PT', sans-serif;
     letter-spacing: 0.05em;
     color: var(--black);
     margin: 0 20px;
@@ -315,6 +320,7 @@ footer {
 
     .h1White {
         margin-top: 12%;
+        font-family: 'Futura PT', sans-serif;
     }
 
     /* ! RED SECTION Desktop ENDS */
@@ -329,6 +335,7 @@ footer {
     h1 {
         margin-top: 4%;
         margin-left: 70px;
+        font-family: 'Futura PT', sans-serif;
     }
 
     .hero>img {
@@ -392,6 +399,7 @@ footer {
         grid-column: 8/12;
         text-align: left;
         margin-right: 150px;
+        font-family: 'Futura PT', sans-serif;
         width: 450px;
         margin-top: -40px;
     }
@@ -444,6 +452,7 @@ footer {
         grid-row: 5/6;
         width: 450px;
         text-align: left;
+        font-family: 'Futura PT', sans-serif;
         margin-left: 0;
         margin-top: -15px;
     }
