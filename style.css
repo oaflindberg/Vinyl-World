@@ -118,7 +118,6 @@ button {
 
 .gridcontainer {
     height: 886px;
-    background: var(--yellow);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -164,6 +163,20 @@ button {
 
 .portrait>img {
     width: 100%;
+}
+
+.headline>h1 {
+    margin: 30vh 20px 5%;
+}
+
+.gridcontainer>h3 {
+    text-align: center;
+    margin: 6vh 20px;
+}
+
+.clarification {
+    margin: 5vh 20px;
+    text-align: center;
 }
 
 /* END PURPLE SECTION MOBILE */
