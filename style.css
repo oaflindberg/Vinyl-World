@@ -51,13 +51,13 @@ h1 {
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #0A0A0A;
+    color: var(--black);
     margin-top: 20%;
 }
 
 /* ! GENERAL BUTTON black */
 button {
-    border: 2px solid black;
+    border: 2px solid var(--black);
     background-color: transparent;
     width: 200px;
     height: 50px;
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-    background: #0A0A0A;
+    background: var(--black);
     color: white;
 }
 
@@ -143,7 +143,7 @@ button:hover {
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #0A0A0A;
+    color: var(--black);
     margin: 0 20px;
 }
 
@@ -259,7 +259,6 @@ footer {
         justify-content: center;
         margin-top: -20vh;
     }
-
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -344,6 +343,7 @@ footer {
     }
 
     /* ! BUTTON White */
+
     .getInTouch {
         border: 2px solid white;
         color: white;
@@ -356,7 +356,7 @@ footer {
 
     .getInTouch:hover {
         background: white;
-        color: #0A0A0A;
+        color: var(--black);
     }
 
     /* ! MINT SECTION Desktop ENDS */
@@ -490,7 +490,5 @@ footer {
 
     .socialMedia:hover {
         opacity: 50%;
-
     }
-
 }
