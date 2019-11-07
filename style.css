@@ -90,7 +90,7 @@ button:hover {
     letter-spacing: 0.05em;
     color: white;
     margin-top: 40px;
-    margin-right: 75px;
+    /* margin-right: 75px; */
 }
 
 /* ! RED SECTION Mobile ENDS */
@@ -156,6 +156,7 @@ button:hover {
     line-height: 21px;
     text-align: center;
     letter-spacing: 0.02em;
+    width: 250px;
 }
 
 .factory {
@@ -192,17 +193,14 @@ button:hover {
     margin: 0 20px;
 }
 
-.purpleH1 {
-    margin: 30vh 20px 5%;
-}
-
 .purpleH3 {
+    width: 250px;
     text-align: center;
-    margin: 6vh 20px;
 }
 
 .clarification {
     text-align: center;
+    margin: 0 20px;
 }
 
 /* ! PURPLE SECTION Mobile ENDS */
@@ -372,6 +370,7 @@ footer {
         text-align: left;
         margin-right: 100px;
         width: 450px;
+        margin-top: -40px;
     }
 
     .yellowP {
@@ -387,7 +386,7 @@ footer {
         grid-column: 8/10;
         margin-left: 20px;
         margin-right: 100px;
-        margin-bottom: 7px;
+        margin-bottom: -53px;
     }
 
     /* ! YELLOW SECTION Desktop ENDS */
