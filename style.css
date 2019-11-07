@@ -195,7 +195,7 @@ button:hover {
 }
 
 .purpleH1 {
-    font-family: Futura PT;
+    font-family: 'Futura PT', sans-serif;
     font-size: 38px;
     line-height: 49px;
     text-align: center;
@@ -204,7 +204,7 @@ button:hover {
 
 .purpleH3 {
     width: 250px;
-    font-family: Futura PT;
+    font-family: 'Futura PT', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -215,7 +215,7 @@ button:hover {
 
 .clarification {
     margin: 0 20px;
-    font-family: Futura PT;
+    font-family: 'Futura PT', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
