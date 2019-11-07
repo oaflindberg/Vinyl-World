@@ -136,6 +136,14 @@ button {
     background: var(--purple);
 }
 
+.portrait {
+    margin: 0 20px;
+}
+
+.portrait>img {
+    width: 100%;
+}
+
 /* END PURPLE SECTION MOBILE */
 
 footer {
