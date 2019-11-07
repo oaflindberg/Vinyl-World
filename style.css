@@ -134,13 +134,6 @@ footer {
     font-size: 14px;
 }
 
-.test {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-}
-
 .socialMedia {
     margin: 5px;
 }
