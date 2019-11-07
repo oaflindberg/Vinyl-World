@@ -130,10 +130,13 @@ button {
     width: 335px;
 }
 
+/* PURPLE SECTION MOBILE */
 .purple {
     height: 1259px;
     background: var(--purple);
 }
+
+/* END PURPLE SECTION MOBILE */
 
 footer {
     height: 121px;
@@ -240,7 +243,8 @@ footer {
         color: white;
         background-color: transparent;
         margin-left: 70px;
-        /* margin-bottom: -100%; */
+        position: absolute;
+        margin-top: -80vh;
     }
 
     /* END MINT SECTION Desktop */
