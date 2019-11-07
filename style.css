@@ -17,6 +17,7 @@
 body {
     min-width: 100vw;
     font-family: 'Futura PT', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -62,6 +63,11 @@ button {
     text-transform: uppercase;
     font-size: 1em;
     cursor: pointer;
+}
+
+button:hover {
+    background: #0A0A0A;
+    color: white;
 }
 
 .red {
@@ -246,6 +252,15 @@ footer {
         letter-spacing: 0.03em;
     }
 
+    .navMenu a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .navMenu a:hover {
+        opacity: 0.6;
+    }
+
     .red {
         height: 938px;
         background: var(--red);
@@ -292,6 +307,11 @@ footer {
         margin-left: 70px;
         position: absolute;
         margin-top: -80vh;
+    }
+
+    .getInTouch:hover {
+        background: white;
+        color: #0A0A0A;
     }
 
     /* END MINT SECTION Desktop */
@@ -360,6 +380,12 @@ footer {
 
     .socialMedia {
         margin: 0 15px 0 15px;
+        cursor: pointer;
+    }
+
+    .socialMedia:hover {
+        opacity: 50%;
+
     }
 
 }
