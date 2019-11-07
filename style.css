@@ -54,6 +54,8 @@ h1 {
     margin-top: 20%;
 }
 
+/* */
+
 .red {
     height: calc(812px - 89px);
     width: 100vw;
@@ -101,6 +103,15 @@ h1 {
 .yellow {
     height: 886px;
     background: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.factory {
+    height: 223px;
+    width: 335px;
 }
 
 .purple {
