@@ -113,6 +113,15 @@ button {
     align-items: center;
 }
 
+.yellowH1 {
+    font-size: 38px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #0A0A0A;
+    margin: 0 20px;
+}
+
 .factory {
     height: 223px;
     width: 335px;
