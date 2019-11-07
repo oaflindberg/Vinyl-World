@@ -54,7 +54,7 @@ h1 {
     margin-top: 20%;
 }
 
-/* GENERAL BUTTON black */
+/* ! GENERAL BUTTON black */
 button {
     border: 2px solid black;
     background-color: transparent;
@@ -70,7 +70,7 @@ button:hover {
     color: white;
 }
 
-/* RED SECTION Mobile STARTS */
+/* ! RED SECTION Mobile STARTS */
 
 .red {
     height: calc(812px - 89px);
@@ -93,9 +93,9 @@ button:hover {
     margin-right: 75px;
 }
 
-/* RED SECTION Mobile ENDS */
+/* ! RED SECTION Mobile ENDS */
 
-/* MINT SECTION Mobile STARTS */
+/* ! MINT SECTION Mobile STARTS */
 .mint {
     height: 100vh;
     background: var(--mint);
@@ -116,9 +116,9 @@ button:hover {
     width: 100vw;
 }
 
-/* MINT SECTION Mobile ENDS */
+/* ! MINT SECTION Mobile ENDS */
 
-/* YELLOW SECTION Mobile STARTS */
+/* ! YELLOW SECTION Mobile STARTS */
 
 .yellow {
     height: 886px;
@@ -164,9 +164,9 @@ button:hover {
     mix-blend-mode: darken;
 }
 
-/* YELLOW SECTION Mobile ENDS */
+/* ! YELLOW SECTION Mobile ENDS */
 
-/* PURPLE SECTION Mobile STARTS */
+/* ! PURPLE SECTION Mobile STARTS */
 
 .purple {
     height: 1259px;
@@ -196,7 +196,7 @@ button:hover {
     text-align: center;
 }
 
-/* PURPLE SECTION Mobile ENDS */
+/* ! PURPLE SECTION Mobile ENDS */
 
 footer {
     height: 121px;
@@ -219,13 +219,13 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
-    /* H1 mint section flexbox align center */
+    /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
         justify-content: center;
     }
 
-    /* BUTTON flexbox align center mobile */
+    /* ! BUTTON flexbox align center mobile */
     .alignCenter {
         display: flex;
         justify-content: center;
@@ -271,6 +271,8 @@ footer {
         opacity: 0.6;
     }
 
+    /* ! RED SECTION Desktop STARTS */
+
     .red {
         height: 938px;
         background: var(--red);
@@ -287,7 +289,10 @@ footer {
         margin-top: 12%;
     }
 
-    /* MINT SECTION Desktop */
+    /* ! PURPLE SECTION Desktop ENDS */
+
+    /* ! MINT SECTION Desktop STARTS */
+
     .mint {
         height: 100vh;
         background: var(--mint);
@@ -309,7 +314,7 @@ footer {
         background-color: oldlace;
     }
 
-    /* BUTTON White */
+    /* ! BUTTON White */
     .getInTouch {
         border: 2px solid white;
         color: white;
@@ -324,7 +329,9 @@ footer {
         color: #0A0A0A;
     }
 
-    /* END MINT SECTION Desktop */
+    /* ! MINT SECTION Desktop ENDS */
+
+    /* ! YELLOW SECTION Desktop STARTS */
 
     .yellow {
         height: 938px;
@@ -374,7 +381,9 @@ footer {
         margin-bottom: 7px;
     }
 
-    /* PURPLE SECTION DESKTOP */
+    /* ! YELLOW SECTION Desktop ENDS */
+
+    /* ! PURPLE SECTION Desktop STARTS */
 
     .purple {
         height: 938px;
@@ -428,7 +437,7 @@ footer {
         grid-row: 8/8;
     }
 
-    /* END PURPLE SECTION DESKTOP */
+    /* ! PURPLE SECTION Desktop ENDS */
 
     footer {
         height: 242px;
