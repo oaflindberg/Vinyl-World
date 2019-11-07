@@ -265,6 +265,12 @@ footer {
     .yellow {
         height: 938px;
         background: var(--yellow);
+        width: 100%;
+    }
+
+    .factory {
+        width: 530px;
+        height: 354px;
     }
 
     .purple {
