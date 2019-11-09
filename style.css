@@ -7,17 +7,17 @@
 }
 
 :root {
-    --black: #0A0A0A;
-    --mint: #9FFFE3;
-    --purple: #5F15C9;
-    --yellow: #E4C953;
-    --red: #C91525;
+    --black: #0a0a0a;
+    --mint: #9fffe3;
+    --purple: #5f15c9;
+    --yellow: #e4c953;
+    --red: #c91525;
 }
 
 body {
     min-width: 100vw;
     height: 100vh;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     overflow-x: hidden;
 }
 
@@ -28,7 +28,6 @@ header {
     justify-content: space-between;
     background: var(--red);
 }
-
 
 .logotype {
     width: 158px;
@@ -51,7 +50,7 @@ h1 {
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.05em;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     color: var(--black);
     margin-top: 20%;
 }
@@ -63,7 +62,7 @@ button {
     width: 200px;
     height: 50px;
     text-transform: uppercase;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     font-size: 1em;
     cursor: pointer;
     transition: 250ms ease;
@@ -92,7 +91,7 @@ button:hover {
     font-size: 38px;
     line-height: 49px;
     letter-spacing: 0.05em;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     color: white;
     margin-top: 40px;
 }
@@ -114,10 +113,10 @@ button:hover {
 
 .mintH1 {
     position: absolute;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
 }
 
-.hero>img {
+.hero > img {
     width: 100vw;
 }
 
@@ -146,7 +145,7 @@ button:hover {
     font-size: 38px;
     line-height: 49px;
     text-align: center;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     letter-spacing: 0.05em;
     color: var(--black);
     margin: 0 20px;
@@ -155,7 +154,7 @@ button:hover {
 .yellowP {
     margin: 0 20px;
     text-align: center;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -200,7 +199,7 @@ button:hover {
 }
 
 .purpleH1 {
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     font-size: 38px;
     line-height: 49px;
     text-align: center;
@@ -209,7 +208,7 @@ button:hover {
 
 .purpleH3 {
     width: 250px;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -220,7 +219,7 @@ button:hover {
 
 .clarification {
     margin: 0 20px;
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -249,9 +248,7 @@ footer {
     width: 25px;
 }
 
-
 @media only screen and (max-width: 768px) {
-
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -267,8 +264,6 @@ footer {
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
-
-
     .logotype {
         margin-top: 30px;
         width: 282px;
@@ -320,7 +315,7 @@ footer {
 
     .h1White {
         margin-top: 12%;
-        font-family: 'Futura PT', sans-serif;
+        font-family: "Futura PT", sans-serif;
     }
 
     /* ! RED SECTION Desktop ENDS */
@@ -335,10 +330,10 @@ footer {
     h1 {
         margin-top: 4%;
         margin-left: 70px;
-        font-family: 'Futura PT', sans-serif;
+        font-family: "Futura PT", sans-serif;
     }
 
-    .hero>img {
+    .hero > img {
         width: 85vw;
     }
 
@@ -399,7 +394,7 @@ footer {
         grid-column: 8/12;
         text-align: left;
         margin-right: 150px;
-        font-family: 'Futura PT', sans-serif;
+        font-family: "Futura PT", sans-serif;
         width: 450px;
         margin-top: -40px;
     }
@@ -417,7 +412,7 @@ footer {
         grid-column: 8/10;
         margin-left: 20px;
         margin-right: 100px;
-        margin-bottom: -53px;
+        margin-bottom: -30px;
     }
 
     /* ! YELLOW SECTION Desktop ENDS */
@@ -452,7 +447,7 @@ footer {
         grid-row: 5/6;
         width: 450px;
         text-align: left;
-        font-family: 'Futura PT', sans-serif;
+        font-family: "Futura PT", sans-serif;
         margin-left: 0;
         margin-top: -15px;
     }
