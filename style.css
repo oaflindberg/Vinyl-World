@@ -396,7 +396,7 @@ footer {
         margin-right: 150px;
         font-family: "Futura PT", sans-serif;
         width: 450px;
-        margin-top: -40px;
+        /* margin-top: -40px; */
     }
 
     .yellowP {
@@ -405,6 +405,8 @@ footer {
         text-align: left;
         margin-right: 100px;
         width: 450px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .yellowButton {
@@ -412,7 +414,7 @@ footer {
         grid-column: 8/10;
         margin-left: 20px;
         margin-right: 100px;
-        margin-bottom: -30px;
+        margin-top: -100px;
     }
 
     /* ! YELLOW SECTION Desktop ENDS */
