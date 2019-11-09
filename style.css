@@ -296,6 +296,7 @@ footer {
     }
 
     .navMenu a:hover {
+        color: white;
         opacity: 0.6;
     }
 
