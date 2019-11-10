@@ -352,28 +352,11 @@ footer {
         width: 85vw;
     }
 
-    .alignCenter {
-        display: flex;
-        align-items: flex-start;
-        height: 100vh;
-        background-color: oldlace;
-    }
-
-    /* ! BUTTON White */
-
-    .getInTouch {
-        border: 2px solid white;
-        color: white;
-        background-color: transparent;
+    .mintButton {
         margin-left: 70px;
         position: absolute;
         margin-top: -80vh;
         transition: 250ms ease;
-    }
-
-    .getInTouch:hover {
-        background: white;
-        color: var(--black);
     }
 
     /* ! MINT SECTION Desktop ENDS */
