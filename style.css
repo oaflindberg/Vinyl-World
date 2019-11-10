@@ -17,7 +17,8 @@
 body {
     min-width: 100vw;
     height: 100vh;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
     overflow-x: hidden;
 }
 
@@ -50,7 +51,7 @@ h1 {
     line-height: 49px;
     text-align: center;
     letter-spacing: 0.05em;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     color: var(--black);
     margin-top: 20%;
 }
@@ -62,7 +63,7 @@ button {
     width: 200px;
     height: 50px;
     text-transform: uppercase;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     font-size: 1em;
     cursor: pointer;
     transition: 250ms ease;
@@ -91,7 +92,7 @@ button:hover {
     font-size: 38px;
     line-height: 49px;
     letter-spacing: 0.05em;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     color: white;
     margin-top: 40px;
 }
@@ -113,7 +114,8 @@ button:hover {
 
 .mintH1 {
     position: absolute;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
+    width: 250px;
 }
 
 .hero > img {
@@ -145,7 +147,8 @@ button:hover {
     font-size: 38px;
     line-height: 49px;
     text-align: center;
-    font-family: "Futura PT", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     letter-spacing: 0.05em;
     color: var(--black);
     margin: 0 20px;
@@ -153,7 +156,7 @@ button:hover {
 
 .yellowP {
     margin: 0 20px;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -199,7 +202,7 @@ button:hover {
 }
 
 .purpleH1 {
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     color: white;
     font-size: 38px;
     line-height: 49px;
@@ -210,7 +213,7 @@ button:hover {
 
 .purpleH3 {
     width: 250px;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -221,7 +224,7 @@ button:hover {
 
 .clarification {
     margin: 0 20px;
-    font-family: "Futura PT", sans-serif;
+    font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -330,7 +333,7 @@ footer {
 
     .h1White {
         margin-top: 12%;
-        font-family: "Futura PT", sans-serif;
+        font-family: futura-pt, sans-serif;
     }
 
     /* ! RED SECTION Desktop ENDS */
@@ -342,10 +345,11 @@ footer {
         background: var(--mint);
     }
 
-    h1 {
-        margin-top: 4%;
+    .mintH1 {
+        margin-top: 3.5%;
         margin-left: 70px;
-        font-family: "Futura PT", sans-serif;
+        font-family: futura-pt, sans-serif;
+        width: auto;
     }
 
     .hero > img {
@@ -384,35 +388,26 @@ footer {
         height: 354px;
         grid-row: 5/9;
         grid-column: 3/6;
-        /* margin-left: 50px; */
     }
 
     .yellowH1 {
         grid-row: 5/6;
         grid-column: 7/12;
         text-align: left;
-        /* margin-right: 150px; */
-        /* font-family: "Futura PT", sans-serif; */
         width: 450px;
-        /* margin-top: -40px; */
     }
 
     .yellowP {
         grid-row: 7/7;
         grid-column: 7/12;
         text-align: left;
-        /* margin-right: 100px; */
         width: 450px;
-        /* margin-top: 20px; */
-        /* margin-bottom: 20px; */
     }
 
     .yellowButton {
         grid-row: 8/8;
         grid-column: 7/10;
         margin-left: 20px;
-        /* margin-right: 100px; */
-        /* margin-top: -100px; */
     }
 
     /* ! YELLOW SECTION Desktop ENDS */
@@ -466,7 +461,6 @@ footer {
         grid-row: 7/9;
         width: 450px;
         text-align: left;
-        line-height: 1.9em;
         color: white;
         margin-left: 0;
     }
