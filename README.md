@@ -9,7 +9,7 @@
 
 Assignment in Design Class at Yrgo to create a responsive landing page for an optional product using Figma for design system and prototyping, and HTML + CSS when developing.
 
-Hello, Vinyl World - a vinyl pressing factory on Ringön, Sweden.
+Vinyl World - a vinyl pressing factory on Ringön, Sweden.
 
 https://vinylworld.netlify.com/
 
