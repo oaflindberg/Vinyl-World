@@ -379,43 +379,43 @@ footer {
         display: grid;
         grid-template-rows: repeat(12, 1fr);
         grid-template-columns: repeat(12, 1fr);
-        grid-gap: 20px;
+        column-gap: 120px;
     }
 
     .factory {
         width: 530px;
         height: 354px;
         grid-row: 5/9;
-        grid-column: 2/6;
-        margin-left: 50px;
+        grid-column: 3/6;
+        /* margin-left: 50px; */
     }
 
     .yellowH1 {
         grid-row: 5/6;
-        grid-column: 8/12;
+        grid-column: 7/12;
         text-align: left;
-        margin-right: 150px;
-        font-family: "Futura PT", sans-serif;
+        /* margin-right: 150px; */
+        /* font-family: "Futura PT", sans-serif; */
         width: 450px;
         /* margin-top: -40px; */
     }
 
     .yellowP {
-        grid-row: 6/6;
-        grid-column: 8/12;
+        grid-row: 7/7;
+        grid-column: 7/12;
         text-align: left;
-        margin-right: 100px;
+        /* margin-right: 100px; */
         width: 450px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px; */
     }
 
     .yellowButton {
         grid-row: 8/8;
-        grid-column: 8/10;
+        grid-column: 7/10;
         margin-left: 20px;
-        margin-right: 100px;
-        margin-top: -100px;
+        /* margin-right: 100px; */
+        /* margin-top: -100px; */
     }
 
     /* ! YELLOW SECTION Desktop ENDS */
@@ -435,47 +435,47 @@ footer {
         display: grid;
         grid-template-rows: repeat(12, 1fr);
         grid-template-columns: repeat(12, 1fr);
-        grid-gap: 20px;
+        column-gap: -20px;
+        row-gap: 60px;
     }
 
     .bandphoto {
-        grid-column: 3/6;
-        grid-row: 5/9;
-        width: 310px;
-        height: 384px;
+        grid-column: 3 / 6;
+        grid-row: 5 / 9;
+        width: 100%;
+        height: auto;
     }
 
     .purpleH1 {
         grid-column: 7/12;
-        grid-row: 5/6;
+        grid-row: 3/6;
         width: 450px;
         text-align: left;
-        font-family: "Futura PT", sans-serif;
         margin-left: 0;
     }
 
     .purpleH3 {
         grid-column: 7/12;
-        grid-row: 6/6;
+        grid-row: 5/7;
         width: 450px;
         text-align: left;
-        margin-top: -20px;
     }
 
     .clarification {
         grid-column: 7/12;
-        grid-row: 7/8;
+        grid-row: 7/9;
         width: 450px;
         text-align: left;
-        margin-top: -10px;
+        line-height: 1.9em;
+        /* margin-top: -10px; */
         margin-left: 0;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .purpleButton {
         grid-column: 7/10;
-        grid-row: 8/8;
-        margin-bottom: 0px;
+        grid-row: 9/10;
+        /* margin-bottom: 0px; */
     }
 
     /* ! PURPLE SECTION Desktop ENDS */
