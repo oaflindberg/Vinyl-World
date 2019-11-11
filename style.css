@@ -282,6 +282,12 @@ footer {
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    body {
+        background: var(--black);
+    }
+
+
     .logotype {
         margin-top: 30px;
         width: 282px;
