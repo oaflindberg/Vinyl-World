@@ -118,7 +118,7 @@ button:hover {
     width: 250px;
 }
 
-.hero > img {
+.hero>img {
     width: 100vw;
 }
 
@@ -266,6 +266,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -352,7 +353,7 @@ footer {
         width: auto;
     }
 
-    .hero > img {
+    .hero>img {
         width: 85vw;
     }
 
@@ -489,5 +490,18 @@ footer {
 
     .socialMedia:hover {
         opacity: 50%;
+    }
+}
+
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    .gridcontainerYellow {
+        width: 100%;
+        height: 100vh;
+        margin: 0 70px;
+        display: grid;
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 140px;
     }
 }
