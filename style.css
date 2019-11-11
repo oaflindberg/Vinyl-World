@@ -125,7 +125,7 @@ button:hover {
     width: 250px;
 }
 
-.hero>img {
+.hero > img {
     width: 100vw;
 }
 
@@ -273,7 +273,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -286,6 +285,10 @@ footer {
         justify-content: center;
         margin-top: -20vh;
     }
+}
+
+.hero > img {
+    visibility: hidden;
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -394,8 +397,8 @@ footer {
         width: auto;
     }
 
-    .hero>img {
-        width: 85vw;
+    .hero > img {
+        visibility: hidden;
     }
 
     .mintButton {
