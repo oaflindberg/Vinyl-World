@@ -20,6 +20,7 @@ body {
     font-family: futura-pt, sans-serif;
     font-style: normal;
     overflow-x: hidden;
+    background: var(--black);
 }
 
 header {
@@ -533,7 +534,6 @@ footer {
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
-
     .h1White {
         margin-top: -1.5%;
     }
