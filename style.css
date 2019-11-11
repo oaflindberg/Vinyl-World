@@ -118,7 +118,7 @@ button:hover {
     width: 250px;
 }
 
-.hero > img {
+.hero>img {
     width: 100vw;
 }
 
@@ -266,6 +266,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -324,16 +325,20 @@ footer {
         background: var(--red);
         width: 100vw;
         background-image: url(images/vinyl_mockup.png);
-        background-size: 100vh;
+        background-size: 90vh;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
+        background-attachment: fixed;
         display: flex;
         justify-content: center;
     }
 
     .h1White {
-        margin-top: 12%;
+        margin-top: 1%;
         font-family: futura-pt, sans-serif;
+        font-size: 11em;
+        line-height: 2.5em;
+        text-shadow: 1px 1px 1px #E7DDD1;
     }
 
     /* ! RED SECTION Desktop ENDS */
@@ -352,7 +357,7 @@ footer {
         width: auto;
     }
 
-    .hero > img {
+    .hero>img {
         width: 85vw;
     }
 
