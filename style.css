@@ -118,7 +118,7 @@ button:hover {
     width: 250px;
 }
 
-.hero>img {
+.hero > img {
     width: 100vw;
 }
 
@@ -266,7 +266,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -282,11 +281,9 @@ footer {
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
-
     body {
         background: var(--black);
     }
-
 
     .logotype {
         margin-top: 30px;
@@ -344,7 +341,7 @@ footer {
         font-family: futura-pt, sans-serif;
         font-size: 11em;
         line-height: 2em;
-        text-shadow: 1px 1px 1px #E7DDD1;
+        text-shadow: 1px 1px 1px #e7ddd1;
     }
 
     #arrow {
@@ -354,6 +351,17 @@ footer {
         right: 70px;
         z-index: 99;
         cursor: pointer;
+        fill: white;
+        transition: ease-in-out 250ms;
+    }
+
+    #arrow:hover {
+        fill: var(--black);
+        -ms-transform: scale(1.2, 1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2, 1.2);
+        /* Safari 3-8 */
+        transform: scale(1.2, 1.2);
     }
 
     /* ! RED SECTION Desktop ENDS */
@@ -372,7 +380,7 @@ footer {
         width: auto;
     }
 
-    .hero>img {
+    .hero > img {
         width: 85vw;
     }
 
@@ -511,7 +519,6 @@ footer {
         opacity: 50%;
     }
 }
-
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
 
