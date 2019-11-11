@@ -75,6 +75,10 @@ button:hover {
     color: white;
 }
 
+#arrow {
+    display: none;
+}
+
 /* ! RED SECTION Mobile STARTS */
 
 .red {
@@ -273,7 +277,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -287,8 +290,6 @@ footer {
         margin-top: -20vh;
     }
 }
-
-
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
     body {
