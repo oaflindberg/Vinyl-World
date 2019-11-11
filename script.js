@@ -7,7 +7,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    if (document.body.scrollTop > 1027 || document.documentElement.scrollTop > 1027) {
         myArrow.style.display = "block";
     } else {
         myArrow.style.display = "none";

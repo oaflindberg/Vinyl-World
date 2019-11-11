@@ -343,17 +343,17 @@ footer {
         margin-top: 1%;
         font-family: futura-pt, sans-serif;
         font-size: 11em;
-        line-height: 2.5em;
+        line-height: 2em;
         text-shadow: 1px 1px 1px #E7DDD1;
     }
 
     #arrow {
-        /* margin: 0 70px 40px; */
         display: none;
         position: fixed;
         bottom: 40px;
         right: 70px;
         z-index: 99;
+        cursor: pointer;
     }
 
     /* ! RED SECTION Desktop ENDS */
