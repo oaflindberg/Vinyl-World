@@ -1,18 +1,18 @@
 const myArrow = document.getElementById("arrow");
 
-window.onscroll = function () {
-    scrollFunction()
-};
+myArrow.addEventListener('click', topFunction());
 
-function scrollFunction() {
+window.onscroll = function () {
     if (document.body.scrollTop > 1027 || document.documentElement.scrollTop > 1027) {
         myArrow.style.display = "block";
     } else {
         myArrow.style.display = "none";
     }
-}
+};
 
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scroll({
+        top: 0,
+        behavior: "smooth",
+    });
 }
