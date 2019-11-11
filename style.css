@@ -105,8 +105,7 @@ button:hover {
     width: 100vw;
     height: 100vh;
     background: var(--mint);
-    background-image: url(images/vinyl_case.png);
-    background-size: 90vw;
+    background-size: 100vw;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -126,7 +125,7 @@ button:hover {
 }
 
 .mintImage {
-    display: none;
+    display: block;
     width: 90vw;
 }
 
