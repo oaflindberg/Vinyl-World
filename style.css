@@ -127,7 +127,7 @@ button:hover {
 
 .mintImage {
     display: block;
-    width: 100vw;
+    width: 90vw;
 }
 
 /* ! MINT SECTION Mobile ENDS */
@@ -289,9 +289,7 @@ footer {
     }
 }
 
-.mintImage {
-    display: none;
-}
+
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
     body {
@@ -399,8 +397,8 @@ footer {
         width: auto;
     }
 
-    .hero>img {
-        visibility: hidden;
+    .mintImage {
+        display: none;
     }
 
     .mintButton {
