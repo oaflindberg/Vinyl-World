@@ -331,16 +331,20 @@ footer {
         background: var(--red);
         width: 100vw;
         background-image: url(images/vinyl_mockup.png);
-        background-size: 100vh;
+        background-size: 90vh;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
+        background-attachment: fixed;
         display: flex;
         justify-content: center;
     }
 
     .h1White {
-        margin-top: 12%;
+        margin-top: 1%;
         font-family: futura-pt, sans-serif;
+        font-size: 11em;
+        line-height: 2.5em;
+        text-shadow: 1px 1px 1px #E7DDD1;
     }
 
     /* ! RED SECTION Desktop ENDS */
