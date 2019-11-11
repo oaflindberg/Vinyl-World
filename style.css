@@ -101,8 +101,14 @@ button:hover {
 
 /* ! MINT SECTION Mobile STARTS */
 .mint {
+    width: 100vw;
     height: 100vh;
     background: var(--mint);
+    background-image: url(images/vinyl_case.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero {
@@ -369,8 +375,14 @@ footer {
     /* ! MINT SECTION Desktop STARTS */
 
     .mint {
+        width: 100vw;
         height: 100vh;
         background: var(--mint);
+        background-image: url(images/vinyl_case.png);
+        background-size: 160vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
     }
 
     .mintH1 {
