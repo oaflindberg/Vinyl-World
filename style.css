@@ -282,6 +282,12 @@ footer {
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    body {
+        background: var(--black);
+    }
+
+
     .logotype {
         margin-top: 30px;
         width: 282px;
@@ -494,5 +500,18 @@ footer {
 
     .socialMedia:hover {
         opacity: 50%;
+    }
+}
+
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    .gridcontainerYellow {
+        width: 100%;
+        height: 100vh;
+        margin: 0 70px;
+        display: grid;
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 140px;
     }
 }
