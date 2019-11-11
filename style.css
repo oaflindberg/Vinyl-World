@@ -118,7 +118,7 @@ button:hover {
     width: 250px;
 }
 
-.hero > img {
+.hero>img {
     width: 100vw;
 }
 
@@ -266,6 +266,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
     /* ! H1 mint section flexbox align center */
     .headline {
         display: flex;
@@ -356,7 +357,7 @@ footer {
     }
 
     #arrow:hover {
-        fill: var(--black);
+        fill: var(--red);
         -ms-transform: scale(1.2, 1.2);
         /* IE 9 */
         -webkit-transform: scale(1.2, 1.2);
@@ -380,7 +381,7 @@ footer {
         width: auto;
     }
 
-    .hero > img {
+    .hero>img {
         width: 85vw;
     }
 
