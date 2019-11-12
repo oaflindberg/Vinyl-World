@@ -367,7 +367,7 @@ footer {
     }
 
     #arrow:hover {
-        fill: var(--red);
+        opacity: 0.5;
         -ms-transform: scale(1.2, 1.2);
         /* IE 9 */
         -webkit-transform: scale(1.2, 1.2);
